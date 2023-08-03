@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+      
+}
+.background{
+    background-image: url("./images/BG1.jpg"); 
+
+}
+.BoxContainer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 5px solid grey;
+}
+.Box{
+    height: 300px;
+    width: 300px;
+    border: 3px solid grey;
+}
+h1{
+    align-self: baseline;
+    color: white;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    
+
+    font-family: 'Bungee Spice', cursive;
+    margin-bottom: 5px;
+
+}
+.words{
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin: 0;
+    z-index: 2;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ball{
+    height: 250px;
+    width: 250px;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+footer{
+    padding-top: 20px;
+}
+.gameover{
+
+    background-color: red;
+}
+.rules{
+    position: absolute;
+    height: fit-content;
+    width:  300px;
+    background-color: black;
+    left: 50px;
+}
+.rules > p{
+    font-size: x-large;
+    color: white;
+    letter-spacing: 1px;
+}
+.rules > h2{
+    color: orangered;
+    font-size: xx-large;
+    text-align: center;
+}
+.highscore{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    right: 20px;
+    top:100px;
+    text-align: center;
+    font-size: x-large;
+    border: 10px solid orangered;
+}
+.highscore > h2{
+    color: white;
+    margin: 0;
+    font-family:'Bungee Spice', cursive;
+}
+.highscore > p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 0;
+}
